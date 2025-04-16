@@ -1,0 +1,95 @@
+/* Reset & Fonts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Main content */
+main {
+    margin: 30px 0;
+    text-align: center;
+}
+
+main p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Button */
+button#actionButton {
+    background: #00c9a7;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button#actionButton:hover {
+    background: #009f86;
+}
+
+/* Section */
+section#instructions {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+    border-left: 6px solid #667eea;
+    padding-left: 10px;
+}
+
+section h3 {
+    font-size: 1.3rem;
+    margin-top: 25px;
+    color: #444;
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Code style */
+code {
+    background: #f0f0f0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    color: #d6336c;
+}
