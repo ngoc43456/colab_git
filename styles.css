@@ -1,0 +1,102 @@
+/* Đặt lại các margin và padding mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Phông chữ chung cho toàn bộ trang */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Tạo một header nổi bật */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+
+/* Style cho tiêu đề h1 trong header */
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Chính giữa nội dung */
+main {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Style cho đoạn văn trong phần main */
+main p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Style cho nút bấm */
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hiệu ứng hover cho nút */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Cải thiện giao diện cho phần hướng dẫn */
+#instructions {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Tiêu đề trong phần hướng dẫn */
+#instructions h2 {
+    font-size: 2em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Tiêu đề con */
+#instructions h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Danh sách trong phần hướng dẫn */
+#instructions ul {
+    list-style-type: disc;
+    margin-left: 40px;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* Style cho mã nguồn trong phần hướng dẫn */
+code {
+    background-color: #f4f4f4;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 1.1em;
+}
